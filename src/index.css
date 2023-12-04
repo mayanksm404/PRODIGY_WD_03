@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.back {
+  background: rgb(5, 50, 46);
+  background: linear-gradient(307deg, rgba(5, 50, 46, 1) 9%, rgba(40, 88, 96, 1) 35%, rgba(77, 127, 128, 1) 69%, rgba(96, 102, 102, 1) 97%);
+
+}
+
+.back1 {
+  background: rgb(5, 50, 46);
+  background: linear-gradient(307deg, rgba(5, 50, 46, 1) 9%, rgba(44, 93, 102, 1) 35%, rgba(66, 98, 99, 1) 69%, rgba(80, 84, 84, 1) 97%);
+
+}
+
+.shade {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.X-content {
+  color: cyan;
+  font-size: 3.5rem;
+  font-weight: 500;
+  text-shadow: 0 0 10px,
+    0 0 20px,
+    0 0 40px,
+    0 0 80px,
+    0 0 120px,
+    0 0 160px
+}
+
+.O-content {
+  color: red;
+  font-weight: 500;
+  font-size: 4rem;
+  text-shadow: 0 0 10px,
+    /* 0 0 20px, */
+    /* 0 0 40px, */
+    0 0 80px,
+    /* 0 0 120px, */
+    0 0 160px;
+}
